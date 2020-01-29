@@ -13,6 +13,7 @@
 		52BC54EA23D6AF1600613748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC54E923D6AF1600613748 /* Assets.xcassets */; };
 		52BC54ED23D6AF1600613748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC54EC23D6AF1600613748 /* Preview Assets.xcassets */; };
 		52BC54F023D6AF1600613748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC54EE23D6AF1600613748 /* LaunchScreen.storyboard */; };
+		52BC54F823E1396D00613748 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC54F723E1396C00613748 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52BC54EC23D6AF1600613748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52BC54EF23D6AF1600613748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BC54F123D6AF1600613748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BC54F723E1396C00613748 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				52BC54E323D6AF1500613748 /* AppDelegate.swift */,
 				52BC54E523D6AF1500613748 /* SceneDelegate.swift */,
 				52BC54E723D6AF1500613748 /* ContentView.swift */,
+				52BC54F723E1396C00613748 /* MenuView.swift */,
 				52BC54E923D6AF1600613748 /* Assets.xcassets */,
 				52BC54EE23D6AF1600613748 /* LaunchScreen.storyboard */,
 				52BC54F123D6AF1600613748 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BC54E423D6AF1500613748 /* AppDelegate.swift in Sources */,
+				52BC54F823E1396D00613748 /* MenuView.swift in Sources */,
 				52BC54E623D6AF1500613748 /* SceneDelegate.swift in Sources */,
 				52BC54E823D6AF1500613748 /* ContentView.swift in Sources */,
 			);
