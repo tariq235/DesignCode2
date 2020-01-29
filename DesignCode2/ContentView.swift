@@ -86,7 +86,7 @@ struct ContentView: View {
                 }
             )
 
-            Text("\(bottomState.height)").offset(y: -300)
+//            Text("\(bottomState.height)").offset(y: -300)
 
             BottomCardView()
                 .offset(y: showCard ? 360 : 1000)
@@ -98,6 +98,9 @@ struct ContentView: View {
                     self.bottomState = value.translation
                     if self.showFull {
                         self.bottomState.height += -300
+                    }
+                    if self.bottomState.height < -300 {
+                        self.bottomState.height = -300
                     }
                 }
                 .onEnded { value in
